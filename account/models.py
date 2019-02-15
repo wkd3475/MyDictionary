@@ -1,10 +1,10 @@
 from django.db import models
-from django import forms
-from django.contrib.auth.models import User
-
-class UserForm(forms.ModelForm):
-    class Meta:
-        model = User
-        fields = ['username', 'password']
 
 # Create your models here.
+
+class User(models.Model):
+    user_name = models.CharField(max_length=30, unique=True)
+    user_password = models.CharField(max_length=128)
+
+    def __str__(self):
+        return self.user_name

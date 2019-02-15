@@ -16,6 +16,8 @@ form {
   width: 300pt;
   padding-bottom: 10pt;
   margin: 0 auto;
+  padding-left: 3pt;
+  padding-right: 3pt;
 }
 
 .form-label-group {
@@ -27,9 +29,9 @@ form {
 }
 
 .form-control {
-  width: 290pt;
+  width: 295pt;
   height: 30pt;
-  margin-top: 2pt;
+  margin-top: 3pt;
   font-size: 15pt;
 }
 
@@ -38,7 +40,7 @@ form {
 }
 
 .button-login {
-  width: 292pt;
+  width: 298pt;
   font-size: 20pt;
   margin-top: 2pt;
 }
